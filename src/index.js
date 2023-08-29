@@ -8,12 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
     pageLoad();
 
     const main = document.getElementById("main");
+    const logo = document.getElementById("logo");
+
+    // Make logo the reset button
+    logo.addEventListener("click", () => {
+        location.reload();
+    });
 
     // Get tab elements
     const menuTab = document.querySelector(".menu");
     const locationsTab = document.querySelector(".locations");
     const contactTab = document.querySelector(".contact");
-
 
     menuTab.addEventListener("click", () => {
         main.innerHTML = "";
