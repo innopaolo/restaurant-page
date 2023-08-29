@@ -2,6 +2,7 @@ import cabbageMan from "./cabbage-man.png";
 
 export default function createMenu() {
     const menuDiv = document.createElement("div");
+    menuDiv.id = "menu-div";
 
     const img = document.createElement("img");
     img.src = cabbageMan;
