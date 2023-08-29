@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Karla", serif;
+    position: relative;
+    background-color: #f8edeb;
+    overflow: hidden;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: transparent;
+    height: 4em;
+    width: 100vw;
+}
+
+#nav-menu {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 100%;
+}
+
+#nav-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    height: 100%;
+}
+
+#nav-menu li {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+    height: 100%;
+    cursor: pointer;
+}
+
+#nav-menu li:hover {
+    background-color: black;
+    color: #f8edeb;
+}
+
+#logo {
+    font-size: 2em;
+    padding-left: 20px;
+    font-family: Vollkorn, serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: -40px;
+}
+
+#hero-image {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#main-text {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+span {
+    background-color: black;
+    padding: 0 15px;
+    color:  #f8edeb;
+    border-radius: 4px;
+}
+
