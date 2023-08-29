@@ -92,7 +92,8 @@ span {
 }
 
 #menu-div,
-#location-div {
+#location-div,
+#contact-div {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +102,8 @@ span {
 }
 
 #menu-div img,
-#location-div img {
+#location-div img,
+#contact-div img {
     margin-top: 20px;
     width: 550px;
     max-width: 100%;
@@ -109,12 +111,14 @@ span {
 }
 
 #menu-div p,
-#location-div p {
+#location-div p,
+#contact-div p {
     font-size: 1.4rem;
     width: 60vw;
 }
 
-#location-div {
+#location-div,
+#contact-div p  {
     text-align: center;
 }
 
@@ -123,8 +127,16 @@ span {
     width: 400px;
 }
 
-#location-div p {
-    font-size: 2.5rem;
+#location-div p,
+#contact-div p  {
+    font-size: 2.8rem;
 }
 
+#contact-div img {
+    margin-top: 70px;
+    width: 300px;
+} 
 
+#contact-div p {
+    margin-top: 30px;
+}
