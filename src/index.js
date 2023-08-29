@@ -3,6 +3,7 @@ import pageLoad from "./pageLoad";
 import createMenu from "./menu.js";
 import createLocation from "./location.js"
 import createContact from "./contact.js";
+import "./style.css";
 
 document.addEventListener("DOMContentLoaded", () => {
     pageLoad();
