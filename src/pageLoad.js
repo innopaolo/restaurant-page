@@ -1,7 +1,8 @@
 import cabbageImage from "./cabbage2.png";
 
 export default function pageLoad() {
-    const contentDiv = document.getElementById("content"); 
+    const contentDiv = document.createElement("div");
+    contentDiv.id = "content"; 
 
     const header = document.createElement("header");
     const nav = document.createElement("nav");
@@ -44,4 +45,6 @@ export default function pageLoad() {
     main.appendChild(mainText);
 
     contentDiv.appendChild(main);
+
+    document.body.appendChild(contentDiv);
 }
